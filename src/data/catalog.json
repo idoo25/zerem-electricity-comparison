@@ -1,0 +1,208 @@
+{
+  "catalog_version": "2026-07-19.1",
+  "verified_at": "2026-07-19",
+  "next_review_on": "2026-08-18",
+  "currency": "ILS",
+  "vat_included": true,
+  "time_model": {
+    "timezone": "Asia/Jerusalem",
+    "meter_timestamp_semantics": "meter_slot_local_label",
+    "interval_boundary": "start",
+    "validity_intervals": "half_open",
+    "default_calculation_mode": "profile_replay_as_of",
+    "notes": "IEC example exports contain 96 meter slots on DST transition dates; do not localize naive labels automatically."
+  },
+  "season_definitions": [
+    {"id": "winter", "name": "Winter", "months": [12, 1, 2], "year_anchor": "end"},
+    {"id": "transition_spring", "name": "Transition (spring)", "months": [3, 4, 5], "year_anchor": "calendar"},
+    {"id": "summer", "name": "Summer", "months": [6, 7, 8, 9], "year_anchor": "calendar"},
+    {"id": "transition_autumn", "name": "Transition (autumn)", "months": [10, 11], "year_anchor": "calendar"}
+  ],
+  "inclusion_policy": {
+    "public_only": true,
+    "no_other_service_required": true,
+    "ordinary_money_only": true,
+    "exclude_vouchers_cashback_and_points": true
+  },
+  "billing": {
+    "vat_rate_percent": 18,
+    "baseline_energy_agorot_per_kwh": 63.5194,
+    "fixed_monthly_ils": {"single": 30.1726, "three": 31.9662},
+    "fixed_monthly_components_ils": {
+      "single": {"distribution": 11.7646, "supply": 18.4080},
+      "three": {"distribution": 13.6408, "supply": 18.3254}
+    },
+    "private_supplier_fixed_monthly_components_ils": {
+      "single": {"distribution": 11.7646, "supply": 18.4080},
+      "three": {"distribution": 13.6408, "supply": 18.3254}
+    },
+    "capacity_ils_per_kva_year": 7.2924,
+    "notes": "All catalog billing values include 18% VAT. The supplied bill classifies the customer as a standard uniform-tariff three-phase customer and does not establish daily readings. Therefore the comparison keeps the standard distribution and supply fixed charges for every plan. Fixed monthly charges are annualized daily, and capacity remains chargeable."
+  },
+  "weekday_convention": {"0": "Sunday", "1": "Monday", "2": "Tuesday", "3": "Wednesday", "4": "Thursday", "5": "Friday", "6": "Saturday"},
+  "plans": [
+    {
+      "id": "bezeq-fixed-24-7", "provider": "בזק energy", "name": "חוסכים חכם 24/7", "category": "fixed",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"], "discount_model": {"type": "flat", "percent": 6.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.bezeq.co.il/benergy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "bezeq-day", "provider": "בזק energy", "name": "חוסכים חכם ביום", "category": "day",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 15.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "07:00", "end": "17:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": true, "source_url": "https://www.bezeq.co.il/benergy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "bezeq-night", "provider": "בזק energy", "name": "חוסכים חכם בלילה", "category": "night",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 20.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "23:00", "end": "07:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": true, "source_url": "https://www.bezeq.co.il/benergy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "partner-fixed-tenure", "provider": "Partner Power", "name": "הנחה קבועה עולה", "category": "fixed",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"],
+      "discount_model": {"type": "tenure_tiered", "tiers": [{"lower": 1, "upper": 2, "percent": 5.0}, {"lower": 2, "upper": 3, "percent": 6.0}, {"lower": 3, "percent": 7.0}]},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.partner.co.il/partnerpower/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "partner-day", "provider": "Partner Power", "name": "מסלול יום", "category": "day",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 15.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "07:00", "end": "17:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.partner.co.il/partnerpower/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "partner-night", "provider": "Partner Power", "name": "מסלול לילה", "category": "night",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 20.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "23:00", "end": "07:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.partner.co.il/partnerpower/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "cellcom-small-bill", "provider": "סלקום Energy", "name": "חשבון קטן הנחה גדולה", "category": "tiered",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"],
+      "discount_model": {"type": "monthly_baseline_tiered", "tiers": [{"lower": 0, "upper": 150, "percent": 10.0}, {"lower": 150, "upper": 200, "percent": 8.0}, {"lower": 200, "upper": 300, "percent": 6.0}, {"lower": 300, "percent": 5.0}]},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.cellcom.co.il/cellcom-energy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "cellcom-fixed", "provider": "סלקום Energy", "name": "חיסכון קבוע", "category": "fixed",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"], "discount_model": {"type": "flat", "percent": 6.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.cellcom.co.il/cellcom-energy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "cellcom-day", "provider": "סלקום Energy", "name": "חיסכון ביום", "category": "day",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 20.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "07:00", "end": "17:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.cellcom.co.il/cellcom-energy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "cellcom-night", "provider": "סלקום Energy", "name": "חיסכון בלילה", "category": "night",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 15.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "23:00", "end": "07:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.cellcom.co.il/cellcom-energy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "cellcom-family", "provider": "סלקום Energy", "name": "חיסכון למשפחה", "category": "family",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 18.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "14:00", "end": "20:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.cellcom.co.il/cellcom-energy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "cellcom-family-plus", "provider": "סלקום Energy", "name": "חיסכון למשפחה פלוס", "category": "family",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 18.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "20:00", "end": "02:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.cellcom.co.il/cellcom-energy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "cellcom-green-50", "provider": "סלקום Energy", "name": "ירוק 50", "category": "green",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"], "discount_model": {"type": "flat", "percent": 3.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.cellcom.co.il/cellcom-energy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "cellcom-green-100", "provider": "סלקום Energy", "name": "ירוק 100", "category": "green",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"], "discount_model": {"type": "flat", "percent": 1.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.cellcom.co.il/cellcom-energy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "hot-fixed", "provider": "HOT energy", "name": "חוסכים קבוע", "category": "fixed",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"], "discount_model": {"type": "flat", "percent": 5.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.hot.net.il/heb/hotenergy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "hot-day", "provider": "HOT energy", "name": "חוסכים ביום", "category": "day",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 15.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "07:00", "end": "17:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.hot.net.il/heb/hotenergy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "hot-night", "provider": "HOT energy", "name": "חוסכים בלילה", "category": "night",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 20.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "23:00", "end": "07:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.hot.net.il/heb/hotenergy/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "super-power-fixed", "provider": "Super Power", "name": "POWER", "category": "fixed",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"], "discount_model": {"type": "flat", "percent": 6.5},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://super-power.co.il/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "super-power-day", "provider": "Super Power", "name": "מסלול יום", "category": "day",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 21.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "07:00", "end": "17:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://super-power.co.il/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "super-power-night", "provider": "Super Power", "name": "לילה פלוס", "category": "night",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 21.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "23:00", "end": "07:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://super-power.co.il/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "super-power-10x10", "provider": "Super Power", "name": "10X10", "category": "extended-day",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["smart"], "discount_model": {"type": "flat", "percent": 10.0},
+      "schedule": [{"days": [0,1,2,3,4], "start": "10:00", "end": "22:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://super-power.co.il/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "amisragaz-fixed", "provider": "אמישראגז חשמל", "name": "הנחה קבועה", "category": "fixed",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"], "discount_model": {"type": "flat", "percent": 6.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 0.0,
+      "excludes_holidays": false, "source_url": "https://www.amisragaz.co.il/electricity/", "verified_at": "2026-07-19"
+    },
+    {
+      "id": "pazgaz-fixed", "provider": "פזגז חשמל", "name": "הנחה קבועה", "category": "fixed",
+      "valid_from": "2026-07-01", "valid_to": null, "vat_included": true, "ordinary_money_only": true, "requires_other_service": false,
+      "meter_types": ["basic", "smart"], "discount_model": {"type": "flat", "percent": 5.0},
+      "schedule": [{"days": [0,1,2,3,4,5,6], "start": "00:00", "end": "00:00"}], "monthly_fee_ils": 2.9,
+      "excludes_holidays": false, "source_url": "https://www.pazgas.co.il/electricity/", "verified_at": "2026-07-19"
+    }
+  ]
+}

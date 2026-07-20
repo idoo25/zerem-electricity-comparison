@@ -1,0 +1,1247 @@
+{
+  "months": [
+    {
+      "id": "2025-07",
+      "label": "יולי 2025",
+      "start": "2025-07-19",
+      "end": "2025-07-31",
+      "calendarDays": 13,
+      "observedDays": 13,
+      "consumptionKwh": 240.96437758882735,
+      "baselineCostIls": 171.22,
+      "winner": {
+        "planId": "cellcom-small-bill",
+        "provider": "סלקום Energy",
+        "plan": "חשבון קטן הנחה גדולה",
+        "costIls": 158.98,
+        "savingsIls": 12.24,
+        "savingsPercent": 7.148697582058171,
+        "effectiveBillDiscountIls": 12.24,
+        "effectiveBillDiscountPercent": 7.148697582058171,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "super-power-fixed",
+          "provider": "Super Power",
+          "plan": "POWER",
+          "costIls": 161.27,
+          "savingsIls": 9.95,
+          "savingsPercent": 5.811237005022778,
+          "effectiveBillDiscountIls": 9.95,
+          "effectiveBillDiscountPercent": 5.811237005022778,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "super-power-day",
+          "provider": "Super Power",
+          "plan": "מסלול יום",
+          "costIls": 161.75,
+          "savingsIls": 9.47,
+          "savingsPercent": 5.530895923373438,
+          "effectiveBillDiscountIls": 9.47,
+          "effectiveBillDiscountPercent": 5.530895923373438,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 162.04,
+          "savingsIls": 9.18,
+          "savingsPercent": 5.361523186543628,
+          "effectiveBillDiscountIls": 9.18,
+          "effectiveBillDiscountPercent": 5.361523186543628,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 2.2900000000000205
+    },
+    {
+      "id": "2025-08",
+      "label": "אוגוסט 2025",
+      "start": "2025-08-01",
+      "end": "2025-08-31",
+      "calendarDays": 31,
+      "observedDays": 31,
+      "consumptionKwh": 598.3348772031244,
+      "baselineCostIls": 423.37,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 398.66,
+        "savingsIls": 24.71,
+        "savingsPercent": 5.836502350190141,
+        "effectiveBillDiscountIls": 24.7,
+        "effectiveBillDiscountPercent": 5.834140350048421,
+        "fixedChargeSavingsIls": 0.01
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 400.56,
+          "savingsIls": 22.81,
+          "savingsPercent": 5.38772232326334,
+          "effectiveBillDiscountIls": 22.8,
+          "effectiveBillDiscountPercent": 5.38536032312162,
+          "fixedChargeSavingsIls": 0.01
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 400.56,
+          "savingsIls": 22.81,
+          "savingsPercent": 5.38772232326334,
+          "effectiveBillDiscountIls": 22.8,
+          "effectiveBillDiscountPercent": 5.38536032312162,
+          "fixedChargeSavingsIls": 0.01
+        },
+        {
+          "planId": "cellcom-fixed",
+          "provider": "סלקום Energy",
+          "plan": "חיסכון קבוע",
+          "costIls": 400.56,
+          "savingsIls": 22.81,
+          "savingsPercent": 5.38772232326334,
+          "effectiveBillDiscountIls": 22.8,
+          "effectiveBillDiscountPercent": 5.38536032312162,
+          "fixedChargeSavingsIls": 0.01
+        }
+      ],
+      "gapToSecondIls": 1.8999999999999773
+    },
+    {
+      "id": "2025-09",
+      "label": "ספטמבר 2025",
+      "start": "2025-09-01",
+      "end": "2025-09-30",
+      "calendarDays": 30,
+      "observedDays": 30,
+      "consumptionKwh": 558.4485028801574,
+      "baselineCostIls": 396.63,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 373.58,
+        "savingsIls": 23.05,
+        "savingsPercent": 5.811461563673953,
+        "effectiveBillDiscountIls": 23.06,
+        "effectiveBillDiscountPercent": 5.813982805133247,
+        "fixedChargeSavingsIls": -0.01
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 375.35,
+          "savingsIls": 21.28,
+          "savingsPercent": 5.365201825378817,
+          "effectiveBillDiscountIls": 21.28,
+          "effectiveBillDiscountPercent": 5.365201825378817,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 375.35,
+          "savingsIls": 21.28,
+          "savingsPercent": 5.365201825378817,
+          "effectiveBillDiscountIls": 21.28,
+          "effectiveBillDiscountPercent": 5.365201825378817,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-fixed",
+          "provider": "סלקום Energy",
+          "plan": "חיסכון קבוע",
+          "costIls": 375.35,
+          "savingsIls": 21.28,
+          "savingsPercent": 5.365201825378817,
+          "effectiveBillDiscountIls": 21.28,
+          "effectiveBillDiscountPercent": 5.365201825378817,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 1.7700000000000387
+    },
+    {
+      "id": "2025-10",
+      "label": "אוקטובר 2025",
+      "start": "2025-10-01",
+      "end": "2025-10-31",
+      "calendarDays": 31,
+      "observedDays": 31,
+      "consumptionKwh": 530.8956612043914,
+      "baselineCostIls": 380.53,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 358.61,
+        "savingsIls": 21.92,
+        "savingsPercent": 5.760386828896539,
+        "effectiveBillDiscountIls": 21.92,
+        "effectiveBillDiscountPercent": 5.760386828896539,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 360.29,
+          "savingsIls": 20.24,
+          "savingsPercent": 5.318897327411768,
+          "effectiveBillDiscountIls": 20.23,
+          "effectiveBillDiscountPercent": 5.316269413712455,
+          "fixedChargeSavingsIls": 0.01
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 360.29,
+          "savingsIls": 20.24,
+          "savingsPercent": 5.318897327411768,
+          "effectiveBillDiscountIls": 20.23,
+          "effectiveBillDiscountPercent": 5.316269413712455,
+          "fixedChargeSavingsIls": 0.01
+        },
+        {
+          "planId": "cellcom-fixed",
+          "provider": "סלקום Energy",
+          "plan": "חיסכון קבוע",
+          "costIls": 360.29,
+          "savingsIls": 20.24,
+          "savingsPercent": 5.318897327411768,
+          "effectiveBillDiscountIls": 20.23,
+          "effectiveBillDiscountPercent": 5.316269413712455,
+          "fixedChargeSavingsIls": 0.01
+        }
+      ],
+      "gapToSecondIls": 1.6800000000000068
+    },
+    {
+      "id": "2025-11",
+      "label": "נובמבר 2025",
+      "start": "2025-11-01",
+      "end": "2025-11-30",
+      "calendarDays": 30,
+      "observedDays": 30,
+      "consumptionKwh": 451.1798634623392,
+      "baselineCostIls": 328.5,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 309.87,
+        "savingsIls": 18.63,
+        "savingsPercent": 5.671232876712329,
+        "effectiveBillDiscountIls": 18.63,
+        "effectiveBillDiscountPercent": 5.671232876712329,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 311.3,
+          "savingsIls": 17.2,
+          "savingsPercent": 5.235920852359208,
+          "effectiveBillDiscountIls": 17.2,
+          "effectiveBillDiscountPercent": 5.235920852359208,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 311.3,
+          "savingsIls": 17.2,
+          "savingsPercent": 5.235920852359208,
+          "effectiveBillDiscountIls": 17.2,
+          "effectiveBillDiscountPercent": 5.235920852359208,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-small-bill",
+          "provider": "סלקום Energy",
+          "plan": "חשבון קטן הנחה גדולה",
+          "costIls": 311.3,
+          "savingsIls": 17.2,
+          "savingsPercent": 5.235920852359208,
+          "effectiveBillDiscountIls": 17.2,
+          "effectiveBillDiscountPercent": 5.235920852359208,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 1.4300000000000068
+    },
+    {
+      "id": "2025-12",
+      "label": "דצמבר 2025",
+      "start": "2025-12-01",
+      "end": "2025-12-31",
+      "calendarDays": 31,
+      "observedDays": 31,
+      "consumptionKwh": 399.0180997731786,
+      "baselineCostIls": 296.76,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 280.29,
+        "savingsIls": 16.47,
+        "savingsPercent": 5.549939344925193,
+        "effectiveBillDiscountIls": 16.47,
+        "effectiveBillDiscountPercent": 5.549939344925193,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 281.55,
+          "savingsIls": 15.21,
+          "savingsPercent": 5.125353821269713,
+          "effectiveBillDiscountIls": 15.21,
+          "effectiveBillDiscountPercent": 5.125353821269713,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 281.55,
+          "savingsIls": 15.21,
+          "savingsPercent": 5.125353821269713,
+          "effectiveBillDiscountIls": 15.21,
+          "effectiveBillDiscountPercent": 5.125353821269713,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-small-bill",
+          "provider": "סלקום Energy",
+          "plan": "חשבון קטן הנחה גדולה",
+          "costIls": 281.55,
+          "savingsIls": 15.21,
+          "savingsPercent": 5.125353821269713,
+          "effectiveBillDiscountIls": 15.21,
+          "effectiveBillDiscountPercent": 5.125353821269713,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 1.259999999999991
+    },
+    {
+      "id": "2026-01",
+      "label": "ינואר 2026",
+      "start": "2026-01-01",
+      "end": "2026-01-31",
+      "calendarDays": 31,
+      "observedDays": 31,
+      "consumptionKwh": 354.1020045630398,
+      "baselineCostIls": 268.23,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 253.61,
+        "savingsIls": 14.62,
+        "savingsPercent": 5.450546173060433,
+        "effectiveBillDiscountIls": 14.62,
+        "effectiveBillDiscountPercent": 5.450546173060433,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 254.73,
+          "savingsIls": 13.5,
+          "savingsPercent": 5.032994072251426,
+          "effectiveBillDiscountIls": 13.5,
+          "effectiveBillDiscountPercent": 5.032994072251426,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 254.73,
+          "savingsIls": 13.5,
+          "savingsPercent": 5.032994072251426,
+          "effectiveBillDiscountIls": 13.5,
+          "effectiveBillDiscountPercent": 5.032994072251426,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-small-bill",
+          "provider": "סלקום Energy",
+          "plan": "חשבון קטן הנחה גדולה",
+          "costIls": 254.73,
+          "savingsIls": 13.5,
+          "savingsPercent": 5.032994072251426,
+          "effectiveBillDiscountIls": 13.5,
+          "effectiveBillDiscountPercent": 5.032994072251426,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 1.1199999999999761
+    },
+    {
+      "id": "2026-02",
+      "label": "פברואר 2026",
+      "start": "2026-02-01",
+      "end": "2026-02-28",
+      "calendarDays": 28,
+      "observedDays": 28,
+      "consumptionKwh": 302.6921347391476,
+      "baselineCostIls": 231.38,
+      "winner": {
+        "planId": "cellcom-small-bill",
+        "provider": "סלקום Energy",
+        "plan": "חשבון קטן הנחה גדולה",
+        "costIls": 216,
+        "savingsIls": 15.38,
+        "savingsPercent": 6.6470740772754775,
+        "effectiveBillDiscountIls": 15.38,
+        "effectiveBillDiscountPercent": 6.6470740772754775,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "super-power-fixed",
+          "provider": "Super Power",
+          "plan": "POWER",
+          "costIls": 218.89,
+          "savingsIls": 12.49,
+          "savingsPercent": 5.398046503587173,
+          "effectiveBillDiscountIls": 12.5,
+          "effectiveBillDiscountPercent": 5.402368398305817,
+          "fixedChargeSavingsIls": -0.01
+        },
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 219.85,
+          "savingsIls": 11.53,
+          "savingsPercent": 4.983144610597286,
+          "effectiveBillDiscountIls": 11.54,
+          "effectiveBillDiscountPercent": 4.98746650531593,
+          "fixedChargeSavingsIls": -0.01
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 219.85,
+          "savingsIls": 11.53,
+          "savingsPercent": 4.983144610597286,
+          "effectiveBillDiscountIls": 11.54,
+          "effectiveBillDiscountPercent": 4.98746650531593,
+          "fixedChargeSavingsIls": -0.01
+        }
+      ],
+      "gapToSecondIls": 2.8899999999999864
+    },
+    {
+      "id": "2026-03",
+      "label": "מרץ 2026",
+      "start": "2026-03-01",
+      "end": "2026-03-31",
+      "calendarDays": 31,
+      "observedDays": 31,
+      "consumptionKwh": 351.46350661111137,
+      "baselineCostIls": 266.55,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 252.04,
+        "savingsIls": 14.51,
+        "savingsPercent": 5.443631588820109,
+        "effectiveBillDiscountIls": 14.51,
+        "effectiveBillDiscountPercent": 5.443631588820109,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 253.16,
+          "savingsIls": 13.39,
+          "savingsPercent": 5.023447758394298,
+          "effectiveBillDiscountIls": 13.39,
+          "effectiveBillDiscountPercent": 5.023447758394298,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 253.16,
+          "savingsIls": 13.39,
+          "savingsPercent": 5.023447758394298,
+          "effectiveBillDiscountIls": 13.39,
+          "effectiveBillDiscountPercent": 5.023447758394298,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-small-bill",
+          "provider": "סלקום Energy",
+          "plan": "חשבון קטן הנחה גדולה",
+          "costIls": 253.16,
+          "savingsIls": 13.39,
+          "savingsPercent": 5.023447758394298,
+          "effectiveBillDiscountIls": 13.39,
+          "effectiveBillDiscountPercent": 5.023447758394298,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 1.1200000000000045
+    },
+    {
+      "id": "2026-04",
+      "label": "אפריל 2026",
+      "start": "2026-04-01",
+      "end": "2026-04-30",
+      "calendarDays": 30,
+      "observedDays": 30,
+      "consumptionKwh": 386.52579920261724,
+      "baselineCostIls": 287.43,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 271.47,
+        "savingsIls": 15.96,
+        "savingsPercent": 5.552656298924956,
+        "effectiveBillDiscountIls": 15.96,
+        "effectiveBillDiscountPercent": 5.552656298924956,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 272.7,
+          "savingsIls": 14.73,
+          "savingsPercent": 5.124726020248408,
+          "effectiveBillDiscountIls": 14.73,
+          "effectiveBillDiscountPercent": 5.124726020248408,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 272.7,
+          "savingsIls": 14.73,
+          "savingsPercent": 5.124726020248408,
+          "effectiveBillDiscountIls": 14.73,
+          "effectiveBillDiscountPercent": 5.124726020248408,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-small-bill",
+          "provider": "סלקום Energy",
+          "plan": "חשבון קטן הנחה גדולה",
+          "costIls": 272.7,
+          "savingsIls": 14.73,
+          "savingsPercent": 5.124726020248408,
+          "effectiveBillDiscountIls": 14.73,
+          "effectiveBillDiscountPercent": 5.124726020248408,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 1.2299999999999613
+    },
+    {
+      "id": "2026-05",
+      "label": "מאי 2026",
+      "start": "2026-05-01",
+      "end": "2026-05-31",
+      "calendarDays": 31,
+      "observedDays": 31,
+      "consumptionKwh": 467.42475360996104,
+      "baselineCostIls": 340.21,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 320.91,
+        "savingsIls": 19.3,
+        "savingsPercent": 5.672966697040064,
+        "effectiveBillDiscountIls": 19.3,
+        "effectiveBillDiscountPercent": 5.672966697040064,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 322.4,
+          "savingsIls": 17.81,
+          "savingsPercent": 5.235001910584639,
+          "effectiveBillDiscountIls": 17.81,
+          "effectiveBillDiscountPercent": 5.235001910584639,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 322.4,
+          "savingsIls": 17.81,
+          "savingsPercent": 5.235001910584639,
+          "effectiveBillDiscountIls": 17.81,
+          "effectiveBillDiscountPercent": 5.235001910584639,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-small-bill",
+          "provider": "סלקום Energy",
+          "plan": "חשבון קטן הנחה גדולה",
+          "costIls": 322.4,
+          "savingsIls": 17.81,
+          "savingsPercent": 5.235001910584639,
+          "effectiveBillDiscountIls": 17.81,
+          "effectiveBillDiscountPercent": 5.235001910584639,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 1.4899999999999523
+    },
+    {
+      "id": "2026-06",
+      "label": "יוני 2026",
+      "start": "2026-06-01",
+      "end": "2026-06-30",
+      "calendarDays": 30,
+      "observedDays": 30,
+      "consumptionKwh": 512.3888695767291,
+      "baselineCostIls": 367.38,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 346.22,
+        "savingsIls": 21.16,
+        "savingsPercent": 5.759703848875824,
+        "effectiveBillDiscountIls": 21.16,
+        "effectiveBillDiscountPercent": 5.759703848875824,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 347.85,
+          "savingsIls": 19.53,
+          "savingsPercent": 5.3160215580597745,
+          "effectiveBillDiscountIls": 19.53,
+          "effectiveBillDiscountPercent": 5.3160215580597745,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 347.85,
+          "savingsIls": 19.53,
+          "savingsPercent": 5.3160215580597745,
+          "effectiveBillDiscountIls": 19.53,
+          "effectiveBillDiscountPercent": 5.3160215580597745,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-fixed",
+          "provider": "סלקום Energy",
+          "plan": "חיסכון קבוע",
+          "costIls": 347.85,
+          "savingsIls": 19.53,
+          "savingsPercent": 5.3160215580597745,
+          "effectiveBillDiscountIls": 19.53,
+          "effectiveBillDiscountPercent": 5.3160215580597745,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 1.6299999999999955
+    },
+    {
+      "id": "2026-07",
+      "label": "יולי 2026",
+      "start": "2026-07-01",
+      "end": "2026-07-18",
+      "calendarDays": 18,
+      "observedDays": 18,
+      "consumptionKwh": 337.64134416498473,
+      "baselineCostIls": 239.61,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 225.67,
+        "savingsIls": 13.94,
+        "savingsPercent": 5.817787237594424,
+        "effectiveBillDiscountIls": 13.94,
+        "effectiveBillDiscountPercent": 5.817787237594424,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 226.75,
+          "savingsIls": 12.86,
+          "savingsPercent": 5.367054797379073,
+          "effectiveBillDiscountIls": 12.87,
+          "effectiveBillDiscountPercent": 5.371228245899586,
+          "fixedChargeSavingsIls": -0.01
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 226.75,
+          "savingsIls": 12.86,
+          "savingsPercent": 5.367054797379073,
+          "effectiveBillDiscountIls": 12.87,
+          "effectiveBillDiscountPercent": 5.371228245899586,
+          "fixedChargeSavingsIls": -0.01
+        },
+        {
+          "planId": "cellcom-small-bill",
+          "provider": "סלקום Energy",
+          "plan": "חשבון קטן הנחה גדולה",
+          "costIls": 226.75,
+          "savingsIls": 12.86,
+          "savingsPercent": 5.367054797379073,
+          "effectiveBillDiscountIls": 12.87,
+          "effectiveBillDiscountPercent": 5.371228245899586,
+          "fixedChargeSavingsIls": -0.01
+        }
+      ],
+      "gapToSecondIls": 1.0800000000000125
+    }
+  ],
+  "seasons": [
+    {
+      "id": "winter",
+      "label": "חורף",
+      "rangeLabel": "01.12–28.02",
+      "start": "2025-12-01",
+      "end": "2026-02-28",
+      "calendarDays": 90,
+      "observedDays": 90,
+      "consumptionKwh": 1055.8122390753654,
+      "baselineCostIls": 796.3740627297036,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 752.78,
+        "savingsIls": 43.59,
+        "savingsPercent": 5.473586398282206,
+        "effectiveBillDiscountIls": 43.59,
+        "effectiveBillDiscountPercent": 5.473586398282206,
+        "fixedChargeSavingsIls": 0
+      },
+      "alternatives": [
+        {
+          "planId": "cellcom-small-bill",
+          "provider": "סלקום Energy",
+          "plan": "חשבון קטן הנחה גדולה",
+          "costIls": 752.29,
+          "savingsIls": 44.08,
+          "savingsPercent": 5.535115586975903,
+          "effectiveBillDiscountIls": 44.08,
+          "effectiveBillDiscountPercent": 5.535115586975903,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 756.14,
+          "savingsIls": 40.23,
+          "savingsPercent": 5.051671961525421,
+          "effectiveBillDiscountIls": 40.24,
+          "effectiveBillDiscountPercent": 5.052927659253865,
+          "fixedChargeSavingsIls": -0.01
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 756.14,
+          "savingsIls": 40.23,
+          "savingsPercent": 5.051671961525421,
+          "effectiveBillDiscountIls": 40.24,
+          "effectiveBillDiscountPercent": 5.052927659253865,
+          "fixedChargeSavingsIls": -0.01
+        }
+      ],
+      "gapToSecondIls": -0.4900000000000091,
+      "fixedPlanCostIls": 752.782098769533,
+      "incrementalSavingsIls": 0.002098769533063205,
+      "incrementalSavingsPercent": 0.00027880173246597764,
+      "usesAnnualFixedPlan": true
+    },
+    {
+      "id": "spring",
+      "label": "אביב",
+      "rangeLabel": "01.03–31.05",
+      "start": "2026-03-01",
+      "end": "2026-05-31",
+      "calendarDays": 92,
+      "observedDays": 92,
+      "consumptionKwh": 1205.4140594236885,
+      "baselineCostIls": 894.1942072560907,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 844.43,
+        "savingsIls": 49.76,
+        "savingsPercent": 5.564812847381429,
+        "effectiveBillDiscountIls": 49.77,
+        "effectiveBillDiscountPercent": 5.565931177937575,
+        "fixedChargeSavingsIls": -0.01
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 848.25,
+          "savingsIls": 45.94,
+          "savingsPercent": 5.137610574933738,
+          "effectiveBillDiscountIls": 45.94,
+          "effectiveBillDiscountPercent": 5.137610574933738,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 848.25,
+          "savingsIls": 45.94,
+          "savingsPercent": 5.137610574933738,
+          "effectiveBillDiscountIls": 45.94,
+          "effectiveBillDiscountPercent": 5.137610574933738,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-small-bill",
+          "provider": "סלקום Energy",
+          "plan": "חשבון קטן הנחה גדולה",
+          "costIls": 848.25,
+          "savingsIls": 45.94,
+          "savingsPercent": 5.137610574933738,
+          "effectiveBillDiscountIls": 45.94,
+          "effectiveBillDiscountPercent": 5.137610574933738,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 3.82000000000005,
+      "fixedPlanCostIls": 844.4255416820888,
+      "incrementalSavingsIls": 0,
+      "incrementalSavingsPercent": 0,
+      "usesAnnualFixedPlan": true
+    },
+    {
+      "id": "summer",
+      "label": "קיץ",
+      "rangeLabel": "01.06–31.08",
+      "start": "2025-07-19",
+      "end": "2026-07-18",
+      "calendarDays": 92,
+      "observedDays": 92,
+      "consumptionKwh": 1689.329468533665,
+      "baselineCostIls": 1201.574371630293,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 1131.83,
+        "savingsIls": 69.74,
+        "savingsPercent": 5.804073004485797,
+        "effectiveBillDiscountIls": 69.75,
+        "effectiveBillDiscountPercent": 5.8049052489659365,
+        "fixedChargeSavingsIls": -0.01
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 1137.19,
+          "savingsIls": 64.38,
+          "savingsPercent": 5.357989963131569,
+          "effectiveBillDiscountIls": 64.38,
+          "effectiveBillDiscountPercent": 5.357989963131569,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 1137.19,
+          "savingsIls": 64.38,
+          "savingsPercent": 5.357989963131569,
+          "effectiveBillDiscountIls": 64.38,
+          "effectiveBillDiscountPercent": 5.357989963131569,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-fixed",
+          "provider": "סלקום Energy",
+          "plan": "חיסכון קבוע",
+          "costIls": 1137.19,
+          "savingsIls": 64.38,
+          "savingsPercent": 5.357989963131569,
+          "effectiveBillDiscountIls": 64.38,
+          "effectiveBillDiscountPercent": 5.357989963131569,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 5.360000000000127,
+      "fixedPlanCostIls": 1131.825995371968,
+      "incrementalSavingsIls": 0,
+      "incrementalSavingsPercent": 0,
+      "usesAnnualFixedPlan": true
+    },
+    {
+      "id": "autumn",
+      "label": "סתיו",
+      "rangeLabel": "01.09–30.11",
+      "start": "2025-09-01",
+      "end": "2025-11-30",
+      "calendarDays": 91,
+      "observedDays": 91,
+      "consumptionKwh": 1540.5240275468882,
+      "baselineCostIls": 1105.6570654221116,
+      "winner": {
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 1042.05,
+        "savingsIls": 63.61,
+        "savingsPercent": 5.753124830418031,
+        "effectiveBillDiscountIls": 63.6,
+        "effectiveBillDiscountPercent": 5.752220393249281,
+        "fixedChargeSavingsIls": 0.01
+      },
+      "alternatives": [
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 1046.95,
+          "savingsIls": 58.71,
+          "savingsPercent": 5.309950617730586,
+          "effectiveBillDiscountIls": 58.71,
+          "effectiveBillDiscountPercent": 5.309950617730586,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 1046.95,
+          "savingsIls": 58.71,
+          "savingsPercent": 5.309950617730586,
+          "effectiveBillDiscountIls": 58.71,
+          "effectiveBillDiscountPercent": 5.309950617730586,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "cellcom-fixed",
+          "provider": "סלקום Energy",
+          "plan": "חיסכון קבוע",
+          "costIls": 1046.95,
+          "savingsIls": 58.71,
+          "savingsPercent": 5.309950617730586,
+          "effectiveBillDiscountIls": 58.71,
+          "effectiveBillDiscountPercent": 5.309950617730586,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 4.900000000000091,
+      "fixedPlanCostIls": 1042.052510177126,
+      "incrementalSavingsIls": 0.002510177125941482,
+      "incrementalSavingsPercent": 0.00024088777690433347,
+      "usesAnnualFixedPlan": true
+    }
+  ],
+  "seasonalAnnual": {
+    "baselineCostIls": 3997.799707038199,
+    "fixedPlan": {
+      "planId": "super-power-fixed",
+      "provider": "Super Power",
+      "plan": "POWER",
+      "costIls": 3771.09,
+      "savingsIls": 226.71,
+      "savingsPercent": 5.670868977937866,
+      "effectiveBillDiscountIls": 226.71,
+      "effectiveBillDiscountPercent": 5.670868977937866,
+      "fixedChargeSavingsIls": 0
+    },
+    "fixedPlanCostIls": 3771.09,
+    "strategyCostIls": 3771.09,
+    "savingsVsBaselineIls": 226.70970703819876,
+    "savingsVsBaselinePercent": 5.670862065427444,
+    "effectiveBillDiscountIls": 226.71,
+    "effectiveBillDiscountPercent": 5.670869393503454,
+    "savingsVsFixedIls": 0,
+    "savingsVsFixedPercent": 0
+  },
+  "optimizedWindows": [
+    {
+      "id": "optimized-1",
+      "label": "חלון חופשי 1",
+      "start": "2026-01-03",
+      "end": "2026-03-28",
+      "calendarDays": 85,
+      "observedDays": 85,
+      "consumptionKwh": 951.9467572589965,
+      "baselineCostIls": 723.41,
+      "winner": {
+        "planId": "cellcom-small-bill",
+        "provider": "סלקום Energy",
+        "plan": "חשבון קטן הנחה גדולה",
+        "costIls": 683.29,
+        "savingsIls": 40.12,
+        "savingsPercent": 5.545955958585035,
+        "effectiveBillDiscountIls": 40.13,
+        "effectiveBillDiscountPercent": 5.54733830054879,
+        "fixedChargeSavingsIls": -0.01
+      },
+      "alternatives": [
+        {
+          "planId": "super-power-fixed",
+          "provider": "Super Power",
+          "plan": "POWER",
+          "costIls": 684.11,
+          "savingsIls": 39.3,
+          "savingsPercent": 5.432603917557125,
+          "effectiveBillDiscountIls": 39.3,
+          "effectiveBillDiscountPercent": 5.432603917557125,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 687.13,
+          "savingsIls": 36.28,
+          "savingsPercent": 5.015136644503118,
+          "effectiveBillDiscountIls": 36.28,
+          "effectiveBillDiscountPercent": 5.015136644503118,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 687.13,
+          "savingsIls": 36.28,
+          "savingsPercent": 5.015136644503118,
+          "effectiveBillDiscountIls": 36.28,
+          "effectiveBillDiscountPercent": 5.015136644503118,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 0.82000000000005,
+      "rangeLabel": "03.01–28.03",
+      "fixedPlanCostIls": 684.1108107882258,
+      "incrementalSavingsIls": 0.8220102140182917,
+      "incrementalSavingsPercent": 0.12015746587474324,
+      "qualifiesForSwitch": false
+    },
+    {
+      "id": "optimized-2",
+      "label": "חלון חופשי 2",
+      "start": "2026-01-31",
+      "end": "2026-04-25",
+      "calendarDays": 85,
+      "observedDays": 85,
+      "consumptionKwh": 990.5795368819922,
+      "baselineCostIls": 747.95,
+      "winner": {
+        "planId": "cellcom-small-bill",
+        "provider": "סלקום Energy",
+        "plan": "חשבון קטן הנחה גדולה",
+        "costIls": 706.36,
+        "savingsIls": 41.59,
+        "savingsPercent": 5.560532121131092,
+        "effectiveBillDiscountIls": 41.6,
+        "effectiveBillDiscountPercent": 5.561869108897653,
+        "fixedChargeSavingsIls": -0.01
+      },
+      "alternatives": [
+        {
+          "planId": "super-power-fixed",
+          "provider": "Super Power",
+          "plan": "POWER",
+          "costIls": 707.06,
+          "savingsIls": 40.89,
+          "savingsPercent": 5.466942977471756,
+          "effectiveBillDiscountIls": 40.9,
+          "effectiveBillDiscountPercent": 5.468279965238318,
+          "fixedChargeSavingsIls": -0.01
+        },
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 710.2,
+          "savingsIls": 37.75,
+          "savingsPercent": 5.0471288187713075,
+          "effectiveBillDiscountIls": 37.75,
+          "effectiveBillDiscountPercent": 5.0471288187713075,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 710.2,
+          "savingsIls": 37.75,
+          "savingsPercent": 5.0471288187713075,
+          "effectiveBillDiscountIls": 37.75,
+          "effectiveBillDiscountPercent": 5.0471288187713075,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 0.6999999999999318,
+      "rangeLabel": "31.01–25.04",
+      "fixedPlanCostIls": 707.0550654697827,
+      "incrementalSavingsIls": 0.6993136649180087,
+      "incrementalSavingsPercent": 0.09890512055851967,
+      "qualifiesForSwitch": false
+    },
+    {
+      "id": "optimized-3",
+      "label": "חלון חופשי 3",
+      "start": "2025-12-06",
+      "end": "2026-02-28",
+      "calendarDays": 85,
+      "observedDays": 85,
+      "consumptionKwh": 991.885862670103,
+      "baselineCostIls": 748.78,
+      "winner": {
+        "planId": "cellcom-small-bill",
+        "provider": "סלקום Energy",
+        "plan": "חשבון קטן הנחה גדולה",
+        "costIls": 707.14,
+        "savingsIls": 41.64,
+        "savingsPercent": 5.561045968108123,
+        "effectiveBillDiscountIls": 41.65,
+        "effectiveBillDiscountPercent": 5.562381473864153,
+        "fixedChargeSavingsIls": -0.01
+      },
+      "alternatives": [
+        {
+          "planId": "super-power-fixed",
+          "provider": "Super Power",
+          "plan": "POWER",
+          "costIls": 707.83,
+          "savingsIls": 40.95,
+          "savingsPercent": 5.468896070942066,
+          "effectiveBillDiscountIls": 40.95,
+          "effectiveBillDiscountPercent": 5.468896070942066,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "amisragaz-fixed",
+          "provider": "אמישראגז חשמל",
+          "plan": "הנחה קבועה",
+          "costIls": 710.98,
+          "savingsIls": 37.8,
+          "savingsPercent": 5.048211757792676,
+          "effectiveBillDiscountIls": 37.8,
+          "effectiveBillDiscountPercent": 5.048211757792676,
+          "fixedChargeSavingsIls": 0
+        },
+        {
+          "planId": "bezeq-fixed-24-7",
+          "provider": "בזק energy",
+          "plan": "חוסכים חכם 24/7",
+          "costIls": 710.98,
+          "savingsIls": 37.8,
+          "savingsPercent": 5.048211757792676,
+          "effectiveBillDiscountIls": 37.8,
+          "effectiveBillDiscountPercent": 5.048211757792676,
+          "fixedChargeSavingsIls": 0
+        }
+      ],
+      "gapToSecondIls": 0.6900000000000546,
+      "rangeLabel": "06.12–28.02",
+      "fixedPlanCostIls": 707.830900702766,
+      "incrementalSavingsIls": 0.6951648134061088,
+      "incrementalSavingsPercent": 0.09821057723192336,
+      "qualifiesForSwitch": false
+    }
+  ],
+  "switching": {
+    "minimumStayDays": 85,
+    "minimumImprovementPercent": 5,
+    "fixedPlan": {
+      "planId": "super-power-fixed",
+      "provider": "Super Power",
+      "plan": "POWER",
+      "costIls": 3771.09,
+      "savingsIls": 226.71,
+      "savingsPercent": 5.670868977937866,
+      "effectiveBillDiscountIls": 226.71,
+      "effectiveBillDiscountPercent": 5.670868977937866,
+      "fixedChargeSavingsIls": 0
+    },
+    "fixedPlanCostIls": 3771.09,
+    "strategyCostIls": 3771.09,
+    "incrementalSavingsIls": 0,
+    "incrementalSavingsPercent": 0,
+    "baselineCostIls": 3997.799707038199,
+    "savingsVsBaselineIls": 226.70970703819876,
+    "savingsVsBaselinePercent": 5.670862065427444,
+    "effectiveBillDiscountIls": 226.71,
+    "effectiveBillDiscountPercent": 5.670869393503454,
+    "projectionRangeLabel": "19.07–18.07",
+    "switchCount": 0,
+    "recommended": false,
+    "explanation": "לא נמצאה תקופה שחוסכת לפחות 5% מול התוכנית הקבועה תוך שהייה של 85 ימים לפחות. לכן לא מומלץ לעבור באמצע התקופה.",
+    "segments": [
+      {
+        "start": "2025-07-19",
+        "end": "2026-07-18",
+        "calendarDays": 365,
+        "planId": "super-power-fixed",
+        "provider": "Super Power",
+        "plan": "POWER",
+        "costIls": 3771.086146000717,
+        "effectiveBillDiscountIls": 226.71356103748286,
+        "savingsVsFixedIls": 0,
+        "savingsVsFixedPercent": 0
+      }
+    ]
+  }
+}

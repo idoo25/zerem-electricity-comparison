@@ -86,7 +86,7 @@ export function ComparisonWorkspace() {
     try {
       const response = await new Promise<AnalysisWorkerResponse>((resolve, reject) => {
         workerRejectRef.current = reject;
-        const worker = new Worker(new URL("../workers/meter-analysis.worker.js", import.meta.url), { type: "module" });
+        const worker = new Worker(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/workers/meter-analysis.worker.js`, { type: "module" });
         workerRef.current = worker;
         worker.onmessage = (event: MessageEvent<AnalysisWorkerResponse>) => {
           workerRejectRef.current = null;

@@ -18,6 +18,7 @@
 /out/
 /output/
 /tmp/
+/public/workers/meter-analysis.worker.js
 
 # production
 /build

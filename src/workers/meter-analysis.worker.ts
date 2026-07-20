@@ -6,23 +6,24 @@ import {
   monthlyProfile,
   parseMeterFile,
 } from "@/lib/meter-engine";
+import type { AnalysisWorkerRequest, AnalysisWorkerResponse } from "@/lib/analysis-worker-types";
 
 const maximumCustomerDisplayDays = 365;
 
-function customerDisplayReadings(readings) {
+function customerDisplayReadings<T extends { dateKey: string }>(readings: T[]) {
   const lastDate = readings.at(-1)?.dateKey;
   if (!lastDate) return readings;
   const cutoff = Date.parse(`${lastDate}T00:00:00Z`) - (maximumCustomerDisplayDays - 1) * 86_400_000;
   return readings.filter((reading) => Date.parse(`${reading.dateKey}T00:00:00Z`) >= cutoff);
 }
 
-self.onmessage = async (event) => {
+self.onmessage = async (event: MessageEvent<AnalysisWorkerRequest>) => {
   try {
     const parsed = await parseMeterFile(event.data.file);
     const customerReadings = customerDisplayReadings(parsed.readings);
     const firstCustomerReading = customerReadings[0];
     const lastCustomerReading = customerReadings.at(-1);
-    self.postMessage({
+    const response: AnalysisWorkerResponse = {
       ok: true,
       analysis: {
         parsed: {
@@ -43,12 +44,14 @@ self.onmessage = async (event) => {
         monthly: monthlyProfile(parsed.readings),
         monthlyInvoices: buildMonthlyInvoiceEstimates(parsed.readings, event.data.profile),
       },
-    });
+    };
+    self.postMessage(response);
   } catch (reason) {
-    self.postMessage({
+    const response: AnalysisWorkerResponse = {
       ok: false,
       error: reason instanceof Error ? reason.message : "אירעה שגיאה בקריאת הקובץ.",
-    });
+    };
+    self.postMessage(response);
   }
 };
 
